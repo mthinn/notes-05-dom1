@@ -21,7 +21,32 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <h1>manipulating thing in the dom</h1>
+        <P>javascript use the dom to manipulate various elements in an html documants. the dom stands for document object model, and it repersants every element in an html document. when you use javascript to change, edit or otherwise modify the dom you are said to br tranersing the dom</P>
+
+        <p>queryselector() is javascript method that allows you to reach into html document and select either a class (.) or an id (#) and preform some kind of method or function on it. in the above example, we used query selector() to grab gethisquery and then used textcontent(), another ,ethod, to change the yext using javascript</p>
+
+        <h1>manipulating things using getElementById</h1>
+
+        <p>getElementById use the id attribute in your html elements to select them edit and modify your html. it is an older method, but is widely supported.getElementById, only works on ids</p>
+
+        <p id="getThisId">get this using javascript getElementById</p>
+
+        <h2>getting input from html form</h2>
+         <form class="animal"> 
+            <p>what's your favorite animal</p>
+
+            <input type="text" class="myanimal" placeholder="enter your favortie animal here....">
+
+            <button onclick="sumitanswer()">submit</button>
+
+            <p class="response">response goes here.</p>
+
+
+          </form>
+
+
+        
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
